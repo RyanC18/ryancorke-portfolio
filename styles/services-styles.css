@@ -1,15 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #CBF6FF;
+    color: black;
     font-family: sans-serif;
 }
 
-.home-hero {
+img {
+    height: 30%;
+    width: 30%;
+    margin: 2rem;
+}
+
+div.container {
+    display: inline-block;
+    margin: 7px;
+}
+
+.hero {
     text-align: center;
 }
 
@@ -59,12 +71,6 @@ body {
     width: 100%;
     background: white;
     border-radius: 10px;
-}
-
-.logo {
-    height: 30%;
-    width: 30%;
-    margin: 2rem;
 }
 
 @media (max-width: 420px) {
