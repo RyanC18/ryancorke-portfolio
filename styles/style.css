@@ -9,6 +9,11 @@ body {
     font-family: sans-serif;
 }
 
+#alert {
+    background: red;
+    color: white;
+}
+
 .home-hero {
     text-align: center;
 }
